@@ -2,13 +2,14 @@ package exercicio1_poo;
 
 public class ClasseCliente {
 	
-	public String nome;
-	public String matricula;
-	public String idade;
-	public String altura;
-	public String nacionalidade;
+	private String nome;
+	private String matricula;
+	private String idade;
+	private String altura;
+	private String nacionalidade;
 	
 	public ClasseCliente (String nome, String matricula, String idade, String altura, String nacionalidade) {
+		super();
 		this.nome = nome;
 		this.matricula = matricula;
 		this.idade = idade;
@@ -16,6 +17,9 @@ public class ClasseCliente {
 		this.nacionalidade = nacionalidade;
 	}
 	
+	// TODO Auto-generated constructor stub
+	
+
 	public String getnomeClasseCliente() {
 		return nome;
 	}
@@ -29,7 +33,7 @@ public class ClasseCliente {
 	}
 	
 	public void setmatriculaClasseCliente() {
-		this.nome = matricula;
+		this.matricula = matricula;
 	}
 	
 	public String getidadeClasseCliente() {
@@ -49,7 +53,7 @@ public class ClasseCliente {
 	}
 	
 	public String getnacionalidadeClasseCliente() {
-		return nome;
+		return nacionalidade;
 	}
 	
 	public void setnacionalidadeClasseCliente() {
